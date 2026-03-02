@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in Html</title>
+</head>
+<body>
+    <h1>Invoice #001</h1>
+    <table border="1">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Qty</th>
+                    <th>Unit price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                <td>1</td>
+                <td>Web Development</td>
+                <td>1</td>
+                <td>$199.00</td>
+                <td>$199.00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Hosting Package</td>
+                <td>Basic(1 year)</td>
+                <td>$50.00</td>
+                <td rowspan="2">$110.00</td>
+            </tr>
+            <tr>
+                <td>Domain(1 year)</td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SSL Certificate</td>
+                <td>1</td>
+                <td>$25:00</td>
+                <td>25:00</td>
+            </tr>
+            <tr>
+                <th colspan="4" style="text-align: right;">SubTotal</th>
+                <td>$334.00</td>
+            </tr>
+             <tr>
+                <th colspan="4" style="text-align: right;">Tax(10%):</th>
+                <td>$33.40</td>
+            </tr>
+             <tr>
+                <th colspan="4" style="text-align: right;">TOTAL</th>
+                <td>$367.40</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
